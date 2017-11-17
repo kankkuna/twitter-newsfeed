@@ -27,14 +27,8 @@ section .up{
   display:inline-block;
 }
 
-div .second {
-
-}
-
-
-
-div .block{
-  background-color: #ffff;
+.block{
+  background-color: #fff;
   width: 420px;
   height: 190px;
   text-align: left;
