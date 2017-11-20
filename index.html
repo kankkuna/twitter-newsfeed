@@ -16,31 +16,34 @@
     <div class="container">
       <section class="up">
 
-        <div class="block">
+        <div class="block-static">
           <br>
           <h3 class="one">Reto de Código</h3>
           <br>
           <p class="one">Hola,</p>
           <p class="one">soy front-end developer jr.</p>
           <br>
-          <hr class="first">
+          <hr id="first">
           <br>
           <h3 class="one">CÓDIGO</h3>
 
         </div>
-        
-        <div class="block insert">
-          <textarea name="message" placeholder="¿Qué estás pensando?" rows="6" cols="48"></textarea>
+
+        <div class="block-insert">
+          <textarea name="message" id="insert" placeholder="¿Qué estás pensando?" rows="6" cols="48"></textarea>
           <br>
-          <hr class="second">
+          <hr id="second">
           <br>
-          <button type="button" name="button">TWEET</button>
+          <button id="press" name="press">TWEET</button>
 
         </div>
       </section>
-      <!--<section class="down">
-        
-      </section>-->
+      <section class="down">
+        <div id="tweet">
+
+        </div>
+
+      </section>
     </div>
     <script type="text/javascript" src="js/app.js">
 

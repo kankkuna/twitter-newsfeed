@@ -30,18 +30,31 @@ header {
 section{
   display:inline-block;
   margin-left: 220px;
-  
+
   /*text-align: center;*/
 }
 
-.block{
-  background-color: #fff;
+.block-static{
+  /*background-color: #ffff;*/
   width: 420px;
   height: 190px;
   text-align: left;
   margin-top: 20px;
   margin-left: 10px;
   display: inline-block;
+  border-radius: 4px;
+  /*opacity: 0.4;*/
+}
+
+.block-insert{
+  background-color: #ffff;
+  width: 420px;
+  height: 190px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 10px;
+  display: inline-block;
+  border-radius: 4px;
 }
 
 button {
@@ -53,6 +66,8 @@ button {
   margin-bottom: 0;
   display: inline-block;
   text-align: center;
+  border-radius: 5px;
+  border: none;
 
 }
 
@@ -60,9 +75,26 @@ button {
   text-indent: 20px;
 }
 
+hr#first {
+  background-color: red;
+}
+
 textarea {
   margin-top: 10px;
   margin-left: 10px;
   border-color: white;
   resize: none;
+}
+
+textarea:focus {
+ outline: none;
+}
+
+.post {
+  margin-top: 10px;
+  width: 700px;
+  height: 60px;
+  background-color: white;
+  border-radius: 3.5px;
+
 }
